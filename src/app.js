@@ -50,6 +50,8 @@ const store = configureStore();
 
 // console.log(visibleExpenses);
 
+console.log('test');
+
 const jsx =(
     <Provider store={store}>
          <AppRouter/>
